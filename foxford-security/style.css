@@ -260,23 +260,23 @@ main {
 
 .intro__item-1 {
   background-color: var(--yellow);
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/652e9e96ecd4c40f0573ba76_home-intro-item-1-lg%402x.jpg);
+  background-image: url(./images/home-intro-item-1-lg.jpg);
   background-position: 408px;
 }
 
 .intro__item-2 {
   background-color: var(--pale-pink);
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/652e9e9decd4c40f0573c0d3_home-intro-item-2-lg%402x.svg);
+  background-image: url(./images/home-intro-item-2-lg.svg);
 }
 
 .intro__item-3 {
   background-color: var(--pale-purple);
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/652e9eab906d83daae066bb1_home-intro-item-3-lg%402x.svg);
+  background-image: url(./images/home-intro-item-3-lg.svg);
 }
 
 .intro__item-4 {
   background-color: var(--pale-blue);
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/652e9eb0321c9d3a4a089c35_home-intro-item-4-lg%402x.png);
+  background-image: url(./images/home-intro-item-4-lg.png);
   background-position: 454px;
 }
 
@@ -294,7 +294,7 @@ main {
 }
 
 .section__program {
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/653f085649859d6302bed379_home-program-pattern.svg);
+  background-image: url(./images/home-program-pattern.svg);
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: auto 40px;
@@ -501,43 +501,43 @@ main {
 }
 
 .button-sharing--vk {
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/653f12d4270573247a467167_home-sharing-buttons-vk.svg);
+  background-image: url(./images/home-sharing-buttons-vk.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 32px;
 }
 .button-sharing--vk:hover {
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/653f12d9b5afc861a1b88ed2_home-sharing-buttons-vk-hover.svg);
+  background-image: url(./images/home-sharing-buttons-vk-hover.svg);
 }
 
 .button-sharing--tg {
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/653f12e5e5071eef0d3efdd8_home-sharing-buttons-tg.svg);
+  background-image: url(./images/home-sharing-buttons-tg.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 32px;
 }
 .button-sharing--tg:hover {
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/653f12eb1ded8c799e871341_home-sharing-buttons-tg-hover.svg);
+  background-image: url(./images/home-sharing-buttons-tg-hover.svg);
 }
 
 .button-sharing--wa {
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/653f12fc1ded8c799e871aa6_home-sharing-buttons-wa.svg);
+  background-image: url(./images/home-sharing-buttons-wa.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 32px;
 }
 .button-sharing--wa:hover {
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/653f1302f87406bdcd85285e_home-sharing-buttons-wa-hover.svg);
+  background-image: url(./images/home-sharing-buttons-wa-hover.svg);
 }
 
 .button-sharing--copy {
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/653f13095f6a5c22a90cfcc5_home-sharing-buttons-copy.svg);
+  background-image: url(./images/home-sharing-buttons-copy.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 32px;
 }
 .button-sharing--copy:hover {
-  background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/653f13102cfcae83f63e09ac_home-sharing-buttons-copy-hover.svg);
+  background-image: url(./images/home-sharing-buttons-copy-hover.svg);
 }
 
 .sharing__p--small {
@@ -817,18 +817,18 @@ main {
     padding-bottom: 200px;
   }
   .intro__item-1 {
-    background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/652e9e9957e2dfdd4208c7f3_home-intro-item-1-sm%402x.jpg);
+    background-image: url(./images/home-intro-item-1-sm.jpg);
   }
   .intro__item-2 {
-    background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/652e9ea00f93914b11717a10_home-intro-item-2-sm%402x.svg);
+    background-image: url(./images/home-intro-item-2-sm.svg);
     padding-bottom: 190px;
   }
   .intro__item-3 {
-    background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/652e9ead7789b432c49b30fd_home-intro-item-3-sm%402x.svg);
+    background-image: url(./images/home-intro-item-3-sm.svg);
     padding-bottom: 166px;
   }
   .intro__item-4 {
-    background-image: url(https://assets-global.website-files.com/652e3b910db4e038fc628d24/652e9eb6108bcccd4a6339f9_home-intro-item-4-sm%402x.jpg);
+    background-image: url(./images/home-intro-item-4-sm.jpg);
   }
   .section__program {
     padding-bottom: 96px;
@@ -930,42 +930,42 @@ main {
 }
 @font-face {
   font-family: "TT Foxford";
-  src: url("https://assets.website-files.com/652e3b910db4e038fc628d24/652e3b910db4e038fc628d2b_TT%20Foxford.woff2") format("woff2");
+  src: url("./fonts/TT_Foxford.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Circe";
-  src: url("https://assets.website-files.com/652e3b910db4e038fc628d24/652e3b910db4e038fc628d2f_Circe-Bold.otf") format("opentype");
+  src: url("./fonts/Circe-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: "Circe";
-  src: url("https://assets.website-files.com/652e3b910db4e038fc628d24/652e3b910db4e038fc628d2d_Circe-ExtraBold.otf") format("opentype");
+  src: url("./fonts/Circe-ExtraBold.otf") format("opentype");
   font-weight: 800;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: "Circe";
-  src: url("https://assets.website-files.com/652e3b910db4e038fc628d24/652e3b910db4e038fc628d30_Circe-Light.otf") format("opentype");
+  src: url("./fonts/Circe-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: "Circe";
-  src: url("https://assets.website-files.com/652e3b910db4e038fc628d24/652e3b910db4e038fc628d2c_Circe-ExtraLight.otf") format("opentype");
+  src: url("./fonts/Circe-ExtraLight.otf") format("opentype");
   font-weight: 200;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: "Circe";
-  src: url("https://assets.website-files.com/652e3b910db4e038fc628d24/652e3b910db4e038fc628d2e_Circe-Regular.otf") format("opentype");
+  src: url("./fonts/Circe-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: auto;
