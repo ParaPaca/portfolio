@@ -1,13 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 :root {
-  --white: #FFFFFF;
-  --pale-yellow: #FFF4D1;
-  --bright-yellow: #FFD233;
-  --yellow: #FFDE7A;
-  --pink: #CA2E8C;
-  --pale-pink: #EFCDEA;
-  --pale-purple: #D7C3EB;
+  --white: #ffffff;
+  --pale-yellow: #fff4d1;
+  --bright-yellow: #ffd233;
+  --yellow: #ffde7a;
+  --pink: #ca2e8c;
+  --pale-pink: #efcdea;
+  --pale-purple: #d7c3eb;
   --pale-blue: #ebefff;
-  --dark-brown: #2C2620;
+  --dark-brown: #2c2620;
 }
 
 h1,
@@ -71,13 +77,13 @@ main {
   overflow: hidden;
 }
 
-.section__hero,
-.section__gift,
-.section__sharing {
+.section--hero,
+.section--gift,
+.section--sharing {
   background-color: var(--pale-yellow);
 }
 
-.section__hero {
+.section--hero {
   padding-block: 110px;
 }
 
@@ -112,7 +118,7 @@ main {
 
 .hero__tagline {
   -webkit-clip-path: polygon(calc(100% - 40px) 0, 100% 50%, calc(100% - 40px) 100%, 0 100%, 20px 50%, 0 0);
-          clip-path: polygon(calc(100% - 40px) 0, 100% 50%, calc(100% - 40px) 100%, 0 100%, 20px 50%, 0 0);
+  clip-path: polygon(calc(100% - 40px) 0, 100% 50%, calc(100% - 40px) 100%, 0 100%, 20px 50%, 0 0);
   text-transform: uppercase;
   padding: 6px 40px;
   font-family: "TT Foxford", sans-serif;
@@ -136,7 +142,7 @@ main {
   margin-left: 2px;
   transform: rotate(0.818deg);
   -webkit-clip-path: polygon(100% 0, calc(100% - 20px) 50%, 100% 100%, 0 100%, 20px 50%, 0 0);
-          clip-path: polygon(100% 0, calc(100% - 20px) 50%, 100% 100%, 0 100%, 20px 50%, 0 0);
+  clip-path: polygon(100% 0, calc(100% - 20px) 50%, 100% 100%, 0 100%, 20px 50%, 0 0);
 }
 
 .hero__h1 {
@@ -180,6 +186,7 @@ main {
   border: 2px solid transparent;
   transition: color 0.2s, background-color 0.2s;
 }
+
 .button:hover {
   background-color: #b5297d;
   transition: color 0.2s, background-color 0.2s;
@@ -190,6 +197,7 @@ main {
   color: var(--dark-brown);
   border-color: var(--dark-brown);
 }
+
 .button--ghost:hover {
   transition: color 0.2s, background-color 0.2s;
   background-color: var(--dark-brown);
@@ -293,7 +301,7 @@ main {
   max-width: 400px;
 }
 
-.section__program {
+.section--program {
   background-image: url(./images/home-program-pattern.svg);
   background-position: 50% 100%;
   background-repeat: repeat-x;
@@ -363,7 +371,7 @@ main {
   top: -12px;
 }
 
-.section__gift {
+.section--gift {
   padding-bottom: 104px;
   overflow: visible;
 }
@@ -434,15 +442,15 @@ main {
   display: none;
 }
 
-.section.section__sharing {
+.section.section--sharing {
   padding-top: 0;
 }
 
-.section__sharing {
+.section--sharing {
   color: var(--white);
 }
 
-.section__sharing .container {
+.section--sharing .container {
   max-width: 1000px;
 }
 
@@ -485,7 +493,7 @@ main {
   width: 56px;
   height: 56px;
   color: transparent;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 50%;
   flex: none;
   font-size: 2px;
@@ -496,6 +504,7 @@ main {
   display: inline-block;
   border: 0;
 }
+
 .button-sharing:hover {
   outline: 0px;
 }
@@ -506,6 +515,7 @@ main {
   background-repeat: no-repeat;
   background-size: 32px;
 }
+
 .button-sharing--vk:hover {
   background-image: url(./images/home-sharing-buttons-vk-hover.svg);
 }
@@ -516,6 +526,7 @@ main {
   background-repeat: no-repeat;
   background-size: 32px;
 }
+
 .button-sharing--tg:hover {
   background-image: url(./images/home-sharing-buttons-tg-hover.svg);
 }
@@ -526,6 +537,7 @@ main {
   background-repeat: no-repeat;
   background-size: 32px;
 }
+
 .button-sharing--wa:hover {
   background-image: url(./images/home-sharing-buttons-wa-hover.svg);
 }
@@ -536,6 +548,7 @@ main {
   background-repeat: no-repeat;
   background-size: 32px;
 }
+
 .button-sharing--copy:hover {
   background-image: url(./images/home-sharing-buttons-copy-hover.svg);
 }
@@ -571,14 +584,14 @@ main {
   .section {
     padding: 88px 30px;
   }
-  .section__intro,
-  .section__sharing {
+  .section--intro,
+  .section--sharing {
     padding: 72px 30px;
   }
-  .section__program {
+  .section--program {
     padding-bottom: 112px;
   }
-  .section__gift {
+  .section--gift {
     padding-block: 66px 78px;
   }
   .hero__tagline {
@@ -586,11 +599,11 @@ main {
     font-size: 22px;
     line-height: 1.22;
     -webkit-clip-path: polygon(calc(100% - 30px) 0, 100% 50%, calc(100% - 30px) 100%, 0 100%, 15px 50%, 0 0);
-            clip-path: polygon(calc(100% - 30px) 0, 100% 50%, calc(100% - 30px) 100%, 0 100%, 15px 50%, 0 0);
+    clip-path: polygon(calc(100% - 30px) 0, 100% 50%, calc(100% - 30px) 100%, 0 100%, 15px 50%, 0 0);
   }
   .hero__tagline--purple {
     -webkit-clip-path: polygon(100% 0, calc(100% - 15px) 50%, 100% 100%, 0 100%, 15px 50%, 0 0);
-            clip-path: polygon(100% 0, calc(100% - 15px) 50%, 100% 100%, 0 100%, 15px 50%, 0 0);
+    clip-path: polygon(100% 0, calc(100% - 15px) 50%, 100% 100%, 0 100%, 15px 50%, 0 0);
   }
   h1 {
     font-size: 44px;
@@ -692,7 +705,7 @@ main {
     bottom: -168px;
     transform: translate(144px);
   }
-  .section__sharing .container {
+  .section--sharing .container {
     max-width: 880px;
   }
   .sharing {
@@ -734,7 +747,7 @@ main {
   .section {
     padding: 56px 20px;
   }
-  .section__hero {
+  .section--hero {
     padding-block: 56px 248px;
   }
   .hero,
@@ -752,14 +765,14 @@ main {
   }
   .hero__tagline {
     -webkit-clip-path: polygon(calc(100% - 20px) 0, 100% 50%, calc(100% - 20px) 100%, 0 100%, 10px 50%, 0 0);
-            clip-path: polygon(calc(100% - 20px) 0, 100% 50%, calc(100% - 20px) 100%, 0 100%, 10px 50%, 0 0);
+    clip-path: polygon(calc(100% - 20px) 0, 100% 50%, calc(100% - 20px) 100%, 0 100%, 10px 50%, 0 0);
     padding: 4px 20px;
     font-size: 14px;
     line-height: 1.14;
   }
   .hero__tagline--purple {
     -webkit-clip-path: polygon(100% 0, calc(100% - 10px) 50%, 100% 100%, 0 100%, 10px 50%, 0 0);
-            clip-path: polygon(100% 0, calc(100% - 10px) 50%, 100% 100%, 0 100%, 10px 50%, 0 0);
+    clip-path: polygon(100% 0, calc(100% - 10px) 50%, 100% 100%, 0 100%, 10px 50%, 0 0);
   }
   .hero__h1 {
     text-align: center;
@@ -830,7 +843,7 @@ main {
   .intro__item-4 {
     background-image: url(./images/home-intro-item-4-sm.jpg);
   }
-  .section__program {
+  .section--program {
     padding-bottom: 96px;
   }
   .program__p {
@@ -863,7 +876,7 @@ main {
   .program__image-steps {
     margin-inline: -20px;
   }
-  .section__gift {
+  .section--gift {
     padding-block: 44px 234px;
   }
   .gift__content {
@@ -893,7 +906,7 @@ main {
     bottom: -243px;
     transform: translate(-50%);
   }
-  .section.section__sharing {
+  .section.section--sharing {
     background-color: var(--pink);
     padding-top: 56px;
   }
