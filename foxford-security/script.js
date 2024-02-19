@@ -1,11 +1,4 @@
 $(document).ready(function () {
-  $(document).on("click", ".hero__button--child, .gift__button", () => {
-    window.open("https://foxford.ru/courses/10521/apply", "_blank");
-  });
-  $(document).on("click", ".hero__button--teacher", () => {
-    window.open("https://security.foxford.ru/teacher", "_blank");
-  });
-
   $(document).on("click", ".button-sharing", function () {
     var url = "";
     if (!$(this).hasClass("button-sharing--copy")) {
